@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dashboard moderno de perfil de usuário">
+<meta name="keywords" content="dashboard, perfil, css variables, painel">
+<meta name="author" content="Ana Luiza de Morais Bellini">
+
+<title>Dashboard Profile</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<aside class="sidebar">
+
+<div class="logo">
+
+<i class="fa-solid fa-layer-group"></i>
+
+<h2>
+AnaPanel
+</h2>
+
+</div>
+
+<nav class="menu">
+
+<a href="#" class="active"><i class="fa-solid fa-house"></i>Dashboard</a>
+
+<a href="#analytics"><i class="fa-solid fa-chart-line"></i>Analytics</a>
+
+<a href="#perfil"><i class="fa-solid fa-user"></i>Perfil</a>
+
+<a href="#projetos"><i class="fa-solid fa-folder"></i>Projetos</a>
+
+<a href="#configuracoes"><i class="fa-solid fa-gear"></i>Configurações</a>
+
+</nav>
+
+<div class="sidebar__footer">
+
+<a href="#"><i class="fa-solid fa-right-from-bracket"></i>Sair</a>
+
+</div>
+
+</aside>
+
+<main class="dashboard">
+
+<header class="topbar">
+
+<div class="search">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input type="text" placeholder="Pesquisar">
+
+</div>
+
+<div class="topbar__profile">
+
+<img src="fotoAnaLuiza.jpg" alt="Perfil">
+
+<div>
+
+<h3>
+Ana Luiza
+</h3>
+
+<span>
+Front-End Developer
+</span>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="banner" id="analytics">
+
+<div class="banner__content">
+
+<span>
+DASHBOARD PREMIUM
+</span>
+
+<h1>
+Bem-vinda de volta, Ana 👋
+</h1>
+
+<p>
+Acompanhe métricas, projetos e atividades em um painel moderno utilizando variáveis CSS e posicionamento avançado.
+</p>
+
+<button>
+Ver Relatórios
+</button>
+
+</div>
+
+<img src="fotoAnaLuiza.jpg" alt="Banner">
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+
+<div class="card__icon">
+<i class="fa-solid fa-eye"></i>
+</div>
+
+<div>
+
+<h2>
+12.4K
+</h2>
+
+<span>
+Visualizações
+</span>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card__icon">
+<i class="fa-solid fa-heart"></i>
+</div>
+
+<div>
+
+<h2>
+8.9K
+</h2>
+
+<span>
+Curtidas
+</span>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card__icon">
+<i class="fa-solid fa-folder-open"></i>
+</div>
+
+<div>
+
+<h2>
+42
+</h2>
+
+<span>
+Projetos
+</span>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card__icon">
+<i class="fa-solid fa-chart-simple"></i>
+</div>
+
+<div>
+
+<h2>
+94%
+</h2>
+
+<span>
+Performance
+</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="content">
+
+<div class="activity" id="projetos">
+
+<div class="section__title">
+
+<h2>
+Atividades Recentes
+</h2>
+
+<a href="#">
+Ver Tudo
+</a>
+
+</div>
+
+<div class="activity__item">
+
+<img src="fotoAnaLuiza.jpg" alt="Usuária">
+
+<div>
+
+<h3>
+Novo projeto publicado
+</h3>
+
+<p>
+Portfolio UI Design
+</p>
+
+</div>
+
+<span>
+2 min
+</span>
+
+</div>
+
+<div class="activity__item">
+
+<img src="1000150471.jpg" alt="Usuário">
+
+<div>
+
+<h3>
+Feedback recebido
+</h3>
+
+<p>
+Landing Page Project
+</p>
+
+</div>
+
+<span>
+1h
+</span>
+
+</div>
+
+<div class="activity__item">
+
+<img src="1000150472.jpg" alt="Usuário">
+
+<div>
+
+<h3>
+Novo comentário
+</h3>
+
+<p>
+Dashboard UI
+</p>
+
+</div>
+
+<span>
+3h
+</span>
+
+</div>
+
+</div>
+
+<div class="profile__card" id="perfil">
+
+<img class="profile__image" src="fotoAnaLuiza.jpg" alt="Perfil">
+
+<h2>
+Ana Luiza
+</h2>
+
+<span>
+UI/UX Designer & Developer
+</span>
+
+<p>
+Apaixonada por design moderno, interfaces minimalistas e experiências digitais.
+</p>
+
+<div class="profile__stats">
+
+<div>
+
+<h3>
+320
+</h3>
+
+<span>
+Posts
+</span>
+
+</div>
+
+<div>
+
+<h3>
+12K
+</h3>
+
+<span>
+Seguidores
+</span>
+
+</div>
+
+<div>
+
+<h3>
+890
+</h3>
+
+<span>
+Following
+</span>
+
+</div>
+
+</div>
+
+<button>
+Editar Perfil
+</button>
+
+</div>
+
+</section>
+
+<section class="configuracoes" id="configuracoes">
+
+<h2>
+Configurações da Conta
+</h2>
+
+<div class="configuracoes__cards">
+
+<div class="config">
+<i class="fa-solid fa-lock"></i>
+<h3>
+Privacidade
+</h3>
+<p>
+Gerencie suas informações e segurança.
+</p>
+</div>
+
+<div class="config">
+<i class="fa-solid fa-bell"></i>
+<h3>
+Notificações
+</h3>
+<p>
+Controle alertas e mensagens do sistema.
+</p>
+</div>
+
+<div class="config">
+<i class="fa-solid fa-palette"></i>
+<h3>
+Tema
+</h3>
+<p>
+Personalize aparência e cores do painel.
+</p>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
